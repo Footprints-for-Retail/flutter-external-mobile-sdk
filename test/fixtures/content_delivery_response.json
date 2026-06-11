@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "mobileId": "c1234567890abcdef",
+  "data": {
+    "displayAd": [
+      {
+        "adType": "displayAd",
+        "adId": "ad_001",
+        "title": "Summer Sale",
+        "campaignName": "Summer Campaign 2026",
+        "topMessage": "Up to 50% off",
+        "contentType": "image",
+        "contentUrl": "https://cdn.footprints-ai.com/media/summer-banner.jpg",
+        "bannerType": "mobileAppBanner600x400",
+        "bottomMessage": "Limited time offer",
+        "buttonText": "Shop Now",
+        "publishDate": "2026-04-01T00:00:00.000Z",
+        "expirationDate": "2026-12-31T23:59:59.000Z",
+        "campaignId": "camp_001",
+        "linkUrl": "https://example.com/summer-sale"
+      }
+    ],
+    "videoAdHorizontalVideo": [],
+    "videoAdVerticalVideo": [],
+    "leadAd": [],
+    "sponsoredProducts": [],
+    "recommendationProducts": [],
+    "mobileNotifications": []
+  }
+}

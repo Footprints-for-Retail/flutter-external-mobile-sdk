@@ -1,0 +1,13 @@
+name: footprints_sdk_example
+description: Example app for Footprints SDK.
+publish_to: 'none'
+
+environment:
+  sdk: ^3.4.0
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  footprints_sdk:
+    path: ../
