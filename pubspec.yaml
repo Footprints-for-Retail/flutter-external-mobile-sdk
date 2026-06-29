@@ -1,6 +1,6 @@
 name: footprints_sdk
 description: Footprints AI mobile SDK for campaign delivery, ad rendering, and event tracking.
-version: 0.1.1
+version: 0.1.2
 homepage: https://github.com/Footprints-for-Retail/footprints-flutter-sdk
 
 environment:
@@ -13,7 +13,12 @@ dependencies:
   dio: ^5.4.0
   json_annotation: ^4.9.0
   connectivity_plus: ^6.0.0
-  flutter_secure_storage: ^9.2.0
+  # >=9.2.0 <11.0.0 spans both 9.x and 10.x. The SDK only uses the core
+  # read/write/delete API and the default constructor, which are unchanged
+  # across both majors — 10.0.0's breaking changes are confined to the
+  # Android encryption backend, AndroidOptions, and a raised Android minSdk
+  # (23). The resolver picks the highest version the host app allows.
+  flutter_secure_storage: '>=9.2.0 <11.0.0'
   device_info_plus: ^10.1.0
   sqflite: ^2.3.0
   path: ^1.9.0

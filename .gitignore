@@ -30,3 +30,7 @@ example/ios/Pods/
 example/ios/.symlinks/
 example/android/.gradle/
 example/android/app/build/
+
+# Distribution archives (built artifacts, never tracked)
+*.tar.gz
+*.tar.gz.sha256
